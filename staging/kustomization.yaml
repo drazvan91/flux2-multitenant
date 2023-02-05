@@ -4,5 +4,5 @@ resources:
   - ../base
   - ./frontend.yaml
   - ./rabbit-mq.yaml
-patchesStrategicMerge:
-  - podinfo-values.yaml
+# patchesStrategicMerge:
+#   - podinfo-values.yaml
