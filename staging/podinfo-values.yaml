@@ -8,4 +8,4 @@ spec:
     spec:
       version: ">=1.0.0-alpha"
   values:
-    replicaCount: 1
+    replicaCount: 4
