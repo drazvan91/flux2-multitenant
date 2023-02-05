@@ -5,7 +5,20 @@ metadata:
   labels:
     toolkit.fluxcd.io/tenant: dev-team
   name: my-tenant
-
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    toolkit.fluxcd.io/tenant: dev-team
+  name: my-tenant1
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    toolkit.fluxcd.io/tenant: dev-team
+  name: apps
 ---
 apiVersion: v1
 kind: ServiceAccount
